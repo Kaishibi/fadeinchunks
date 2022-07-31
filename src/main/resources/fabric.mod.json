@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fadeinchunks",
+  "version": "${version}",
+  "name": "FadeInChunks",
+  "description": "",
+  "authors": ["Wurgo"],
+  "contact": {
+    "homepage": "https://github.com/wurgo"
+  },
+  "license": "MIT",
+  "icon": "assets/fadeinchunks/icon.png",
+  "environment": "client",
+  "mixins": ["fadeinchunks.mixins.json"],
+  "depends": {
+    "minecraft": "1.16.1",
+    "sodium": "0.2.1+build.10"
+  }
+}

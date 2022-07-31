@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.wurgo.fadeinchunks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ChunkGraphicsStateMixin",
+    "ChunkProgramMixin",
+    "ChunkRenderBackendOneshotMixin",
+    "ChunkRenderShaderBackendMixin",
+    "NioChunkDrawCallVectorMixin",
+    "ShaderLoaderMixin",
+    "UnsafeChunkDrawCallVectorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
